@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url("images/back3.webp");
+    background-attachment: fixed;
+}
+h1{
+    font-size: 10rem;
+    color: rgb(17, 19, 182); 
+}
+button{
+    font-size: 5rem;
+    height: 15%;
+    width: 15%;
+    border: 10px solid black;
+    display: inline-block;
+}
+.drum{
+    background-size: cover;
+}
+.q{
+    background-image: url("images/tom1.png");
+}
+.w{
+    background-image: url("images/tom2.png");
+}
+.e{
+    background-image: url("images/tom3.png");
+}
+.r{
+    background-image: url("images/tom4.png");
+}
+.t{
+    background-image: url("images/crash.png");
+}
+.y{
+    background-image: url("images/kick.png");
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 gray;
+    opacity: 0.5;
+}
